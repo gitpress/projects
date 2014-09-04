@@ -1,0 +1,31 @@
+.mimp-page-header {
+	background-color: #0091C9;
+	padding: 40px 0px 15px 5px;
+	color: white;
+	font-size: 350%;
+}
+
+#mimp-services h2 {
+	border-bottom: 1px dotted #333333;
+}
+
+#mimp-services h3 {
+	border-bottom: 1px dotted #333333;
+}
+
+.mimp-search-sidebar {
+	margin-top: 30px;
+}
+
+.mimp-service-list {
+	margin-top: 5px;
+	border-bottom: 2px solid rgba(33, 140, 182, 0.79);
+}
+
+a.sth-second-brand.mimp-service-list {
+	color: white;
+}
+
+a.sth-second-brand.mimp-service-list:hover {
+	color: #0091C9;
+}
