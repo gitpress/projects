@@ -1,12 +1,13 @@
-.mimp-page-header {
-	background-color: #0091C9;
-	padding: 40px 0px 15px 5px;
+#mimp-service-header {
+	background-color: #08688D;
+	padding: 50px 0px;
 	color: white;
-	font-size: 350%;
+  margin-top: -20px;
+  margin-bottom: 15px;
 }
 
-#mimp-services h2 {
-	border-bottom: 1px dotted #333333;
+#mimp-service-header h1 {
+  color: white;
 }
 
 #mimp-services h3 {
@@ -14,12 +15,19 @@
 }
 
 .mimp-search-sidebar {
-	margin-top: 30px;
+	margin-top: 60px;
 }
 
 .mimp-service-list {
 	margin-top: 5px;
 	border-bottom: 2px solid rgba(33, 140, 182, 0.79);
+}
+
+.open>.dropdown-menu.mimp-service-dropdown {
+  display: block;
+  overflow: scroll;
+  max-height: 200px;
+  min-width: 100%;
 }
 
 a.sth-second-brand.mimp-service-list {
@@ -28,4 +36,14 @@ a.sth-second-brand.mimp-service-list {
 
 a.sth-second-brand.mimp-service-list:hover {
 	color: #0091C9;
+}
+
+.breadcrumb {
+  background-color:white;
+  border:none;
+  padding-left:0px;
+}
+
+button.btn.btn-mimp.dropdown-toggle.form-control {
+color: #0091c9;
 }

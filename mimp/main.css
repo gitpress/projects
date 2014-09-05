@@ -5,6 +5,11 @@
 body {
   color: #5a5a5a;
 }
+
+hr {
+  border-style: dotted;
+  border-color: #333333;
+}
  
 .navbar-logo {
 	padding: 5px;
@@ -17,7 +22,7 @@ body {
 
 .btn-mimp:hover {
 	margin-top: 0;
-	border: 2px solid #333333;
+	border: 2px solid #08688D;
 }
  
 /* BRAND COLOURS AND FILLS */
