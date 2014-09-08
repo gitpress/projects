@@ -4,6 +4,21 @@
  
 body {
   color: #5a5a5a;
+  padding-top: 70px;
+}
+
+.navbar {
+  border-width:0 0 2px 0;
+}
+
+.navbar-default {
+background-color: #fff;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
@@ -23,6 +38,11 @@ hr {
 .btn-mimp:hover {
 	margin-top: 0;
 	border: 2px solid #08688D;
+}
+
+.mimp-sidebar-image {
+  max-width: 100%;
+  margin-top: 15px;
 }
  
 /* BRAND COLOURS AND FILLS */
@@ -66,15 +86,6 @@ border-radius: 0px;
 	color: white;
 }
  
-#mimp-nav-blocks blockquote {
-	padding: 30px 18px;
-	background-color: #0091C9;
-}
- 
-#mimp-nav-blocks blockquote:hover {
-	background-color: #28B4EB;
-}
- 
 #mimp-nav-blocks a {
 	text-decoration: none;
 	color: white;
@@ -95,9 +106,9 @@ border-radius: 0px;
  
 /* MIMP SEARCH BAR */
  
-div#mimp-search-bar {
-	padding-bottom: 20px;
-	margin-top: -20px;
+#mimp-search-bar {
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
  
 .mimp-search-box {
@@ -138,7 +149,8 @@ div#mimp-search-bar {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
+  margin-top: -20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -157,6 +169,19 @@ div#mimp-search-bar {
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+
+.carousel .mimp-carousel-header {
+  background-color: #08688D;
+  color: white;
+  padding: 10px;
+}
+
+.carousel .mimp-carousel-paragraph {
+  background-color: white;
+  color: #08688D;
+  text-shadow: none;
+  padding-left: 10px;
 }
  
 /* GLOBAL FOOTER */
@@ -220,6 +245,22 @@ background-color: #000;
  
 #global-footer .nav-pills>li>a {
  border-radius: 0;
+}
+
+.carousel-caption{
+  max-height: 100%;
+}
+
+.carousel-inner > .item > img {
+  height:300px;
+}
+
+.carousel .item {
+  height:300px;
+}
+
+.carousel {
+  height:300px;
 }
  
 /**** *****/
