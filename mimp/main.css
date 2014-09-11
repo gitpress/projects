@@ -1,10 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
  
 body {
   color: #5a5a5a;
   padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -67,7 +74,7 @@ hr {
 }
  
 #mimp-breadcrumbs li {
-	padding: 0px 10px;
+	padding: 0px 5px;
 }
  
 #mimp-breadcrumbs .nav > li > a:hover, .nav > li > a:focus {
