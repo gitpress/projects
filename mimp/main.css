@@ -19,7 +19,12 @@ body {
 }
 
 .navbar-default {
-background-color: #fff;
+  background-color: #fff;
+  font-size:13px;
+}
+
+.navbar-brand{
+  font-size:14px;
 }
 
 .center-block{
